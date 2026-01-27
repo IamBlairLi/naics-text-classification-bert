@@ -1,0 +1,13 @@
+cat >> .gitignore <<'EOF'
+# training artifacts / checkpoints
+artifacts/
+**/checkpoint-*/
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# logs
+wandb/
+mlruns/
+EOF
