@@ -1,6 +1,6 @@
 cat >> .gitignore <<'EOF'
 # training artifacts / checkpoints
-artifacts/
+artifacts/checkpoint
 **/checkpoint-*/
 *.pt
 *.bin
